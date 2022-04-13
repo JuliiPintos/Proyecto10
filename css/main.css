@@ -40,8 +40,7 @@ img{
 
 
 img:hover{
-    transform: scale(1.5);
-    
+    transform: scale(1.1);
 }
 
 .mainNosotros{
@@ -88,4 +87,26 @@ img:hover{
     to{
         transform: rotate(360deg);
     }
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    list-style: none;
+    background-color: whitesmoke;
+}
+
+footer{
+    position: absolute, relative;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
